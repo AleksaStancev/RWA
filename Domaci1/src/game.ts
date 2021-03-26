@@ -41,7 +41,6 @@ export class Game
         let button = document.createElement("a");
         button.href="#";
         button.className="button";
-        button.innerHTML="Igraj ponovo!";
         button.onclick = () => 
         {
             this.matrixContainer.remove();

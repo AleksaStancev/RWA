@@ -1,0 +1,102 @@
+.bun
+{
+    width: 300px;
+    height: 100px;
+    background-color:   #faab3e;
+    border-radius: 5px 5px 100px 100px;
+}
+
+.patty
+{
+    width: 320px;
+    height: 50px;
+    background-color: #a33815;
+    border-radius: 35px;
+}
+
+.tomato
+{
+    width: 250px;
+    height: 20px;
+    background-color: #e81802;
+    border-radius: 15px;
+}
+
+.lettuce
+{
+    width: 340px;
+    height: 10px;
+    background-color: #a1d501;
+    border-radius: 50px;
+}
+
+.buttonContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex
+}
+
+button
+{
+    background-color: darkgray;
+    border:none;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+}
+
+button:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+button:hover
+{
+    box-shadow: 0px 0px 15px white;
+}
+
+.burgerContainer
+{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 50vh;
+    width: 70%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.taskContainer
+{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-evenly;
+}
+
+.tasks
+{
+    border: 1px solid black;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    background-color: darkgray;
+    padding: 5px;
+    width: 15vw ;
+    height: 30vh;
+}
+body
+{   
+    background-color: gray
+}
