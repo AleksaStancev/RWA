@@ -1,0 +1,52 @@
+{
+  "players": [
+    {
+      "name": "Vladimir",
+      "surname": "Lučić",
+      "playerClubDob": {
+        "dob": "06.17.1989.",
+        "club": "FC Bayern Munich"
+      },
+      "imageSrc": "https://images.eurohoops.net/2020/10/72de169a-lucic-625x375.jpg",
+      "avatarSrc": "https://www.euroleague.net/rs/avx35c3kw3arcfop/c4974b14-d249-46d4-9092-0e470e8d733d/7f3/filename/c49.jpg",
+      "position": "Krilo",
+      "statistics": {
+        "PPG": 13.6,
+        "ASS": 1.4,
+        "REB": 4.8
+      }
+    },
+    {
+      "name": "Vasilije",
+      "surname": "Micić",
+      "playerClubDob": {
+        "dob": "06.03.1989.",
+        "club": "Anadolu Efes Istanbul"
+      },
+      "imageSrc": "https://images.eurohoops.net/2019/03/dd911e86-vasilije-micic-efes-euroleague-625x375.jpg",
+      "avatarSrc": "https://www.euroleague.net/rs/avkjcfqi8rpj4ndq/c4974b14-d249-46d4-9092-0e470e8d733d/7ad/filename/c49.jpg",
+      "position": "Plejmejker",
+      "statistics": {
+        "PPG": 16.3,
+        "ASS": 4.8,
+        "REB": 2.6
+      }
+    },
+    {
+      "name": "Nikola",
+      "surname": "Mirotić",
+      "playerClubDob": {
+        "dob": "02.11.1991.",
+        "club": "FC Barcelona"
+      },
+      "imageSrc": "https://images.eurohoops.net/2019/09/dc471518-nikola-mirotic-625x375.jpg",
+      "avatarSrc": "https://www.euroleague.net/rs/av54hmrrihievayy/c4974b14-d249-46d4-9092-0e470e8d733d/4b0/filename/c49.jpg",
+      "position": "Krilni centar",
+      "statistics": {
+        "PPG": 15.5,
+        "ASS": 1.1,
+        "REB": 5.8
+      }
+    }
+  ]
+}

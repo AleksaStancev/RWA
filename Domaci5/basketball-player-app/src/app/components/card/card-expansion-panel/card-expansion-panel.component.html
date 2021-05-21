@@ -1,0 +1,16 @@
+<div *ngIf="statistics">
+  <mat-expansion-panel class="Expansion">
+    <mat-expansion-panel-header class="Header">
+      <mat-panel-title> Statistika igraca </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-list>
+      <mat-divider></mat-divider>
+      <mat-list-item> PPG: {{ statistics.PPG }} </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item> ASS: {{ statistics.ASS }} </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item> REB: {{ statistics.REB }} </mat-list-item>
+      <mat-divider></mat-divider>
+    </mat-list>
+  </mat-expansion-panel>
+</div>

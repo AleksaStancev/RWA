@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+textarea
+{
+  margin: auto;
+  width: 220px;
+  flex-grow: 1;
+  resize: none;
+  text-align: center;
+  border: 1px solid gray;
+  
+}
+textarea:focus
+{
+  outline: none;
+  border: 1px solid gray; 
+  box-shadow: none;
+}
+.obserDiv
+{
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+  align-items: center;
+  border-radius: 5px;
+  height: 250px;
+  width: 250px;
+}
+.container
+{
+  display: flex;
+  justify-content: space-evenly;
+}

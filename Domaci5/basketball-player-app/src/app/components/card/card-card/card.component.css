@@ -1,0 +1,15 @@
+.PlayerCard
+{
+    max-width: 300px;
+    margin-top: 10px;
+}
+.Title
+{
+    word-wrap: break-word;
+    font-size: x-large;
+}
+
+.expansion
+{
+    margin-top: 5px;
+}

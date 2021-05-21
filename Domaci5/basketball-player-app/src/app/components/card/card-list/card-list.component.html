@@ -1,0 +1,11 @@
+<div *ngIf="playerClubDob">
+  <mat-list>
+    <mat-divider></mat-divider>
+    <mat-list-item> Klub: {{ playerClubDob.club }} </mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>
+      Godina rođenja: {{ playerClubDob.dob | date: "dd.MM.yyyy."}}
+    </mat-list-item>
+    <mat-divider></mat-divider>
+  </mat-list>
+</div>

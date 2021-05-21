@@ -1,0 +1,17 @@
+<div *ngIf="player">
+  <mat-card class="PlayerCard">
+    <mat-card-header>
+      <img mat-card-avatar src="{{ player.avatarSrc }}" alt="Avatar" />
+      <mat-card-title>{{ player.name }} {{ player.surname }}</mat-card-title>
+      <mat-card-subtitle>{{ player.position }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{ player.imageSrc }}" alt="Slika igraca" />
+    <mat-card-content>
+      <div class="Title">Osnovni podaci:</div>
+      <app-card-list [playerClubDob]="player.playerClubDob"></app-card-list>
+      <app-card-expansion-panel
+        [statistics]="player.statistics"
+      ></app-card-expansion-panel>
+    </mat-card-content>
+  </mat-card>
+</div>
